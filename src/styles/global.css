@@ -1,0 +1,76 @@
+@import 'tailwindcss';
+
+:root {
+    --primary: #088178;
+    --lightPurple: #e3e6f3;
+    --lightPrimary: #08817815;
+    --black: #212121;
+    --darkBlue: #021836;
+    --heroBg: #d7d8da;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+/* global styles */
+h1 {
+  font-size: 3.125rem;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 2.875rem;
+  line-height: 3.375rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  font-weight: 700;
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  color: #465b52;
+  margin: 15px 0 20px 0;
+}
+
+.container {
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+
+
+/* header styles */
+header nav ul li a {
+    position: relative;
+    transition: 0.3s ease-in-out;
+}
+
+header nav ul li a.active,
+header nav ul li a:hover {
+    color: var(--primary);
+}
+
+header nav ul li a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 70%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    background-color: var(--primary);
+    transition: transform 0.3s ease-in-out;
+}
+
+header nav ul li a.active::after,
+header nav ul li a:hover::after {
+    transform: scaleX(100%);
+}
