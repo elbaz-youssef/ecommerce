@@ -5,7 +5,7 @@ const Product = ({srcImg, altImg, mark, title, stars, price}: ProductType) => {
     return (
         <div
             key={srcImg}
-            className="group w-75 p-3 border border-gray-200 rounded-2xl transition duration-300 ease-in-out hover:shadow-lg"
+            className="group w-75 p-3 border border-gray-200 rounded-2xl transition duration-300 ease-in-out cursor-pointer hover:shadow-lg"
         >
             <div className="rounded-lg overflow-hidden mb-2">
                 <img src={srcImg} alt={altImg} loading="lazy" />

@@ -1,4 +1,4 @@
-import type { Feature } from '../../../types/home/feature.types';
+import type { Feature } from '../../types/home/feature.types';
 
 import img1 from '@/assets/features/f1.png';
 import img2 from '@/assets/features/f2.png';

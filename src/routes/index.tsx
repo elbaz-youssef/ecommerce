@@ -6,12 +6,14 @@ import Shop from "../pages/Shop";
 import Blog from "../pages/Blog";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import ProductDetails from "../pages/ProductDetails";
 
 const AppRoutes = () => {
   return (
     <Routes>
       <Route path={paths.home} element={<Home />} />
       <Route path={paths.shop} element={<Shop />} />
+      <Route path={paths.productDetails} element={<ProductDetails />} />
       <Route path={paths.blog} element={<Blog/>} />
       <Route path={paths.about} element={<About />} />
       <Route path={paths.contact} element={<Contact />} />
