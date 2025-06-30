@@ -1,3 +1,4 @@
+import MainButton from "../../common/buttons/MainButton"
 
 const Hero = () => {
   return (
@@ -11,7 +12,7 @@ const Hero = () => {
                     <h2>Super value deals</h2>
                     <h2 className="text-[var(--primary)]">On all products</h2>
                     <p>Save more with coupons & up to 70% off!</p>
-                    <button className="cursor-pointer py-2 px-5 bg-[var(--primary)] text-white rounded-sm">Shop Now</button>
+                    <MainButton roundedLeft={1}>Shop Now</MainButton>
                 </div>
             </div>
         </div>

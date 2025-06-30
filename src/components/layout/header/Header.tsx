@@ -33,23 +33,19 @@ const Header = () => {
                                 <X className={`${commonStyle} group-hover:rotate-180 mb-3`} />
                             </button>
                             <NavBar onClose={() => setIsNavBarOpen(false)} />
-                            <button 
-                                type="button"
-                                aria-label="Open Shopping Cart"
-                                className="hidden sm:block"
-                            >
-                                <ShoppingCart className={`${commonStyle}`} />
-                            </button>
                         </ul>
                     </nav>
                     <div className="flex items-center gap-5 sm:hidden">
-                        <button 
-                            type="button" 
-                            aria-label="Open Shopping Cart"
-                        >
-                            <ShoppingCart className={`${commonStyle}`} />
-                        </button>
-                        <button 
+                        <Link to="/cart">
+                            <button 
+                                type="button" 
+                                aria-label="Open Shopping Cart"
+                            >
+                                <ShoppingCart className={`${commonStyle}`} />
+                            </button>
+                        </Link>
+                        
+                        <button
                             type="button"
                             aria-label="Open Navigation"
                             onClick={() => setIsNavBarOpen(true)}

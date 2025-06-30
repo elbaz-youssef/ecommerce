@@ -1,3 +1,4 @@
+import { ShoppingCart } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const NavBar = ({onClose}: {onClose: () => void}) => {
@@ -22,6 +23,16 @@ const NavBar = ({onClose}: {onClose: () => void}) => {
             path: "/contact",
             content: "Contact"
         },
+        {
+            path: "/cart",
+            content: <button 
+                        type="button" 
+                        aria-label="Open Shopping Cart"
+                        className="hidden sm:block"
+                    >
+                        <ShoppingCart />
+                    </button>
+        }
     ];
 
     return (
@@ -30,11 +41,11 @@ const NavBar = ({onClose}: {onClose: () => void}) => {
                 navLinks.map(({path, content}) => (
                     <li 
                         key={path}
-                        onClick={onClose}
                     >
                         <NavLink
                             to={path}
                             className={({ isActive }) => (isActive ? "active" : "")}
+                            onClick={onClose}
                         >
                             {content}
                         </NavLink>

@@ -1,5 +1,5 @@
 import Banner from "../components/common/Banner"
-import NewsLetter from "../components/features/home/NewsLetter"
+import NewsLetter from "../components/layout/NewsLetter"
 import Products from "../components/features/shop/Products"
 
 const Shop = () => {

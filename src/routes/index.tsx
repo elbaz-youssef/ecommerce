@@ -7,6 +7,7 @@ import Blog from "../pages/Blog";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
 import ProductDetails from "../pages/ProductDetails";
+import Cart from "../pages/Cart";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
       <Route path={paths.blog} element={<Blog/>} />
       <Route path={paths.about} element={<About />} />
       <Route path={paths.contact} element={<Contact />} />
+      <Route path={paths.cart} element={<Cart />} />
     </Routes>
   );
 };

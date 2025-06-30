@@ -5,6 +5,7 @@ const paths = {
   blog: "/blog",
   about: "/about",
   contact: "/contact",
+  cart: "/cart"
 };
 
 export default paths;

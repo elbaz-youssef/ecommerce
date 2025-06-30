@@ -1,5 +1,5 @@
 import FeaturedProducts from "../components/features/home/FeaturedProducts"
-import NewsLetter from "../components/features/home/NewsLetter"
+import NewsLetter from "../components/layout/NewsLetter"
 import ProductInfo from "../components/features/productDetails/ProductInfo"
 
 const ProductDetails = () => {

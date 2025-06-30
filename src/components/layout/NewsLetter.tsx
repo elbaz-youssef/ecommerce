@@ -1,3 +1,4 @@
+import MainButton from "../common/buttons/MainButton"
 
 const NewsLetter = () => {
   return (
@@ -11,7 +12,10 @@ const NewsLetter = () => {
                     <div>
                         <div className="flex flex-col gap-3 sm:flex-row sm:justify-center sm:gap-0">
                             <input className="w-full max-w-100 mx-auto p-3 inline-block bg-white rounded-l-sm rounded-r-sm sm:rounded-r-none sm:w-100 outline-none text-[var(--black)] px-2 sm:mx-0" type="email" placeholder="Your email address" />
-                            <button className="max-w-30 mx-auto py-3 px-5 mt-4 font-bold text-white bg-[var(--primary)] cursor-pointer rounded-r-sm rounded-l-sm sm:rounded-l-none sm:mx-0 sm:mt-0">Sign Up</button>
+                            {/* <button className="max-w-30 mx-auto py-3 px-5 mt-4 font-bold text-white bg-[var(--primary)] cursor-pointer rounded-r-sm rounded-l-sm sm:rounded-l-none sm:mx-0 sm:mt-0">Sign Up</button> */}
+                            <div className="text-center">
+                                <MainButton roundedLeft={0}>Sign Up</MainButton>
+                            </div>
                         </div>
                     </div>
                 </div>
