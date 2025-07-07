@@ -1,12 +1,17 @@
 import { Heart, ShoppingCart, Star } from "lucide-react"
 import type { ProductType } from "../../../types/product.types"
+import { useNavigate } from "react-router-dom"
 
 const Product = ({srcImg, altImg, mark, title, stars, price}: ProductType) => {
+    const navigate = useNavigate();
     return (
         <div
-            className="group w-75 border border-gray-200 rounded-2xl transition duration-300 ease-in-out cursor-pointer hover:shadow-lg"
+            className="group w-75 border border-gray-200 rounded-2xl transition duration-300 ease-in-out hover:shadow-lg"
         >
-            <div className="relative rounded-t-2xl overflow-hidden mb-2 transition duration-300 group-hover:scale-95 group-hover:rounded-lg">
+            <div 
+                onClick={() => navigate('/products/1')}
+                className="cursor-pointer relative rounded-t-2xl overflow-hidden mb-2 transition duration-300 group-hover:scale-95 group-hover:rounded-lg"
+            >
                 <img src={srcImg} alt={altImg} loading="lazy" />
                 <span 
                     className="invisible opacity-0 absolute top-5 right-5 transition delay-150 duration-300 ease-in group-hover:visible group-hover:opacity-100"

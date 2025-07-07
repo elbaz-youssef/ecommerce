@@ -29,7 +29,7 @@ export const navLinks = [
         <button
           type="button"
           aria-label="Open Shopping Cart"
-          className="hidden sm:block"
+          className="hidden sm:block cursor-pointer"
         >
           <ShoppingCart />
         </button>
