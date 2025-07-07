@@ -1,19 +1,20 @@
-import { BrowserRouter } from "react-router-dom"
-import Footer from "../components/layout/Footer"
-import Header from "../components/layout/header/Header"
-import AppRoutes from "../routes"
+import Footer from "../components/common/layout/Footer/Footer"
+import Header from "../components/common/layout/Header/Header"
+import ScrollTop from "../components/common/ui/ScrollTop";
 import '@/styles/global.css';
+import { Outlet } from "react-router-dom";
 
 const MainLayout = () => {
-  return (
-    <>
-    <BrowserRouter>
-        <Header />
-        <AppRoutes />
-        <Footer />
-    </BrowserRouter>
-    </>
-  )
+    return (
+        <>
+          <Header />
+          <main className="min-h-screen">
+            <Outlet />
+          </main>
+          <ScrollTop />
+          <Footer />
+        </>
+    )
 }
 
 export default MainLayout

@@ -5,8 +5,11 @@
     --lightPurple: #e3e6f3;
     --lightPrimary: #08817815;
     --black: #212121;
-    --darkBlue: #021836;
+    --darkBlue: #060f1e;
     --heroBg: #d7d8da;
+    --gray: #676968;
+    --lightGray: #f1f1f1;
+    --lightWhite: #f2f2f2;
 }
 
 html {
@@ -16,27 +19,30 @@ html {
 
 /* global styles */
 h1 {
-  font-size: 3.125rem;
-  line-height: 4rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  font-weight: 500;
 }
 
 h2 {
-  font-size: 2.875rem;
-  line-height: 3.375rem;
+  font-size: 2.5rem;
+  line-height: 2rem;
+  font-weight: 500;
 }
 
 h3 {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 1.6rem;
+    font-weight: 600;
 }
 
 h4 {
-  font-size: 1.5rem;
-  font-weight: bold;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 
 h5 {
-  font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
 
 h6 {
@@ -46,7 +52,7 @@ h6 {
 
 p {
   font-size: 16px;
-  color: #465b52;
+  color: var(--gray);
   margin: 15px 0 20px 0;
 }
 

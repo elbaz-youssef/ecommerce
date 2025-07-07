@@ -1,15 +1,9 @@
-import FeaturedProducts from "../components/features/home/FeaturedProducts"
-import NewsLetter from "../components/layout/NewsLetter"
-import ProductInfo from "../components/features/productDetails/ProductInfo"
+import ProductDetails from "@/components/ProductDetails/ProductDetails";
 
-const ProductDetails = () => {
+const ProductDetailsPage = () => {
     return (
-        <>
-            <ProductInfo />
-            <FeaturedProducts />
-            <NewsLetter />
-        </>
+        <ProductDetails />
     )
 }
 
-export default ProductDetails
+export default ProductDetailsPage;

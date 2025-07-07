@@ -1,23 +1,9 @@
-import Arrivals from "../components/features/home/Arrivals"
-import Banner from "../components/features/home/Banner"
-import CallToAction from "../components/features/home/CallToAction"
-import FeaturedProducts from "../components/features/home/FeaturedProducts"
-import Features from "../components/common/Features"
-import Hero from "../components/features/home/Hero"
-import NewsLetter from "../components/layout/NewsLetter"
+import Home from "@/components/Home/Home";
 
-const Home = () => {
+const HomePage = () => {
   return (
-    <>
-        <Hero />
-        <Features />
-        <FeaturedProducts />
-        <CallToAction />
-        <Arrivals />
-        <Banner />
-        <NewsLetter />
-    </>
+    <Home />
   )
 }
 
-export default Home
+export default HomePage;

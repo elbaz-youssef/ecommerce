@@ -1,18 +1,9 @@
-import Banner from "../components/common/Banner"
-import Pagination from "../components/common/Pagination"
-import Posts from "../components/features/blog/Posts"
-import NewsLetter from "../components/layout/NewsLetter"
-import img from '@/assets/banner/b19.jpg'
+import Blog from "@/components/Blog/Blog"
 
-const Blog = () => {
+const BlogPage = () => {
     return (
-        <>
-          <Banner urlImg={img} title="#readmore" description="Read all case studies about our products!" />
-          <Posts />
-          <Pagination />
-          <NewsLetter />
-        </>
+      <Blog />
     )
 }
 
-export default Blog
+export default BlogPage;
