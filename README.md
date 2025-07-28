@@ -82,13 +82,13 @@ Homepage
 <img src="https://iili.io/FvURjef.png" alt="Home" />
 
 Product Detail Page
-https://iili.io/FvURM0X.png
+<img src="https://iili.io/FvURM0X.png" alt="Product Details" />
 
 Shopping Cart
-https://iili.io/FvURabR.png
+<img src="https://iili.io/FvURabR.png" alt="Cart" />
 
 Checkout
-https://iili.io/FvURXJs.png
+<img src="https://iili.io/FvURXJs.png" alt="Checkout" />
 
 
 🚧 Current Limitations & Future Enhancements
