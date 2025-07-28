@@ -27,17 +27,17 @@ This project is built with a powerful and modern front-end stack:
 ## 📦 Installation & Setup
 To run this project locally on your machine, follow these steps:
 
-### Prerequisites:
+### Prerequisites
 Node.js (v18 or higher recommended)
 
 npm or Yarn
 
-### Steps:
+### Installation
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/your-portfolio.git
-   cd your-portfolio
+   git clone https://github.com/elbaz-youssef/ecommerce.git
+   cd ecommerce
 
 2. Install dependencies:
 
@@ -115,3 +115,9 @@ I'm always open to connecting and discussing development!
 - **Email:** youssef.devworks@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/youssef-elbaz-9930482b3
 - **Portfolio:** https://my-mine-portfolio.netlify.app
+
+
+<!-- 
+    Thank you for checking out my ecommerce website!
+    I hope you enjoy it as much as I enjoyed building it. 
+-->
