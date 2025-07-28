@@ -1,7 +1,7 @@
 # 🛍️ Saraa Store
 Welcome to Saraa Store, a sleek and interactive e-commerce platform designed to provide a seamless shopping experience. Built with a focus on modern web development practices, performance, and responsive design, this project showcases a robust front-end architecture.
 
-_________________________________________________________________________
+---
 
 ## ✨ Features
 This application offers key e-commerce functionalities for users to browse products and manage their shopping cart:
@@ -11,7 +11,7 @@ This application offers key e-commerce functionalities for users to browse produ
 - **Responsive Design:** Enjoy an optimal viewing experience across all devices, from desktops to tablets and mobile phones, thanks to a fully adaptive layout.
 - **Form Validation:** Robust form handling and validation for user inputs, ensuring data integrity.
 
-_________________________________________________________________________
+---
 
 ## 🚀 Technologies Used
 This project is built with a powerful and modern front-end stack:
@@ -22,7 +22,7 @@ This project is built with a powerful and modern front-end stack:
 - **React Hook Form:** A performant, flexible, and extensible forms library for React, simplifying form management and validation.
 - **ZOD:** A TypeScript-first schema declaration and validation library, used in conjunction with React Hook Form for robust data validation.
 
-_________________________________________________________________________
+---
 
 ## 📦 Installation & Setup
 To run this project locally on your machine, follow these steps:
@@ -33,39 +33,39 @@ Node.js (v18 or higher recommended)
 npm or Yarn
 
 ### Steps:
+1. Clone the repository:
 
-#### 1. Clone the repository:
-- git clone https://github.com/elbaz-youssef/ecommerce.git
+   ```bash
+   git clone https://github.com/yourusername/your-portfolio.git
+   cd your-portfolio
 
-- cd ecommerce
+2. Install dependencies:
 
-#### 2. Install dependencies:
-npm install 
+    ```bash
+    npm install
+    # or
+    yarn install
 
-**or**
+3. Start the development server:
 
-yarn install
+    ```bash
+    npm run dev
+    # or
+    yarn dev
 
-#### 3. Run the development server:
-npm run dev 
+4. Open your browser and go to http://localhost:5173 (or the port shown in terminal).
 
-**or**
+5. build for production
 
-yarn dev
+    ```bash
+    npm run build
+    # or
+    yarn build
 
-*-> The application will typically be accessible at http://localhost:5173 (or another port if 5173 is in use).*
-
-#### 4. Build for production:
-
-npm run build
-
-**or**
-
-yarn build
 
 *-> This command will create a dist folder containing the optimized and minified production-ready files.*
 
-_________________________________________________________________________
+---
 
 ## 🌐 Live Demo & Visuals
 Experience the Saraa Store application live and see its features in action
@@ -90,7 +90,7 @@ Checkout
 
 <img src="https://iili.io/FvURXJs.png" alt="Checkout" />
 
-_________________________________________________________________________
+---
 
 ## 🚧 Current Limitations & Future Enhancements
 This project is continuously evolving. Currently, some features are static or planned for future development:
@@ -106,13 +106,12 @@ Future plans to enhance Saraa Store include:
 - User reviews and ratings system for products.
 - An administrative dashboard for managing products, orders, and users.
 
-_________________________________________________________________________
+---
 
 ## ✉️ Contact
 I'm always open to connecting and discussing development!
 
 - **GitHub:** @elbaz-youssef
-
+- **Email:** youssef.devworks@gmail.com
 - **LinkedIn:** https://www.linkedin.com/in/youssef-elbaz-9930482b3
-
 - **Portfolio:** https://my-mine-portfolio.netlify.app
