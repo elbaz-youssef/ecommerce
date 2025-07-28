@@ -79,7 +79,7 @@ Live Demo: https://saraa-store.netlify.app/
 Here are some visual glimpses of the application's interface:
 
 Homepage
-https://iili.io/FvURjef.png
+<img src="https://iili.io/FvURjef.png" alt="Home" />
 
 Product Detail Page
 https://iili.io/FvURM0X.png
